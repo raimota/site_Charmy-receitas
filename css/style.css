@@ -1,0 +1,142 @@
+/*
+**** Limpar formatações padrão ****
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{       
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    scroll-behavior: smooth;
+}
+
+/*
+**** Layout ****
+*/
+
+#area-cabecalho{
+    background-color: #FF8800;    
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px !important;             
+    margin-bottom: 10px;
+    z-index: 1;             
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    position: relative;
+    top: 160px;                      
+    width: 90%;       
+    padding: 15px;
+    z-index: 0;       
+}
+
+#area-postagens{              
+    width: 90%;    
+    margin: 0 auto;
+}
+
+#area-rodape{
+    position: relative;
+    bottom: -160px;                     
+    width: auto;    
+    text-align: center;    
+    padding: 15px;
+    background-color: #CCC;    
+}
+
+.postagem{    
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+/*
+**** Formatação do menu ****
+*/
+
+#area-menu li{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;     
+}
+
+#area-menu a:link, #area-menu a:visited{
+    color: #4e4e4e;
+    padding: 8px 12px;    
+}
+
+#area-menu a:hover{
+    color: white;
+    background-color: #C66300;
+    text-decoration: none;  
+}
+
+/*
+**** Formatações em geral ****
+*/
+
+img{
+    width: 50%;
+}
+
+a:link, a:visited{
+    color: #FF8800;    
+}
+
+a:hover{
+    color: #C66300;
+}
+
+a h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    display: inline;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: #FF8800;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #4e4e4e;              
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;    
+    padding-bottom: 10px;    
+    display: block;
+}
+
+.branco{
+    color: white;
+}
+
+.postagem li{
+    margin-left: 25px;
+    padding: 5px;
+}
